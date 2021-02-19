@@ -15,7 +15,7 @@ class ProgressWater():
         self.rect_2 = self.image_2.get_rect()
         self.rect_2.x = 95
         self.rect_2.y = 255
-        
+
         self.value = 10
 
     def add(self, value):
