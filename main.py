@@ -22,3 +22,6 @@ while running:
         if e.type == pygame.QUIT:
             pygame.quit()
             running = False
+        if e.type == pygame.KEYDOWN:
+            if e.key == pygame.K_a:
+                game.progresswater.add(10)
