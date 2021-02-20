@@ -7,3 +7,5 @@ class Reactor():
         self.rect = self.image.get_rect()
         self.rect.x = 700
         self.rect.y = 180
+    def overheat(self):
+        self.image = pygame.image.load('./assets/reactoroverheat.png')
